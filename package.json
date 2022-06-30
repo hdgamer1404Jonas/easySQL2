@@ -1,13 +1,16 @@
 {
-    "name": "@hdgamer1404jonas/easysql2",
-    "version": "1.0.3",
+    "name": "easysql2",
+    "version": "1.0.0",
     "description": "An easy way to use mySQL2",
     "repository": "hdgamer1404Jonas/easySQL2",
     "main": "index.js",
     "keywords": [
-      "mySQL2",
-      "npm",
-      "package",
-      "hdgamer1404Jonas"
-    ]
-  }
+        "mySQL2",
+        "npm",
+        "package",
+        "hdgamer1404Jonas"
+    ],
+    "dependencies": {
+        "mysql2": "^2.3.3"
+    }
+}
